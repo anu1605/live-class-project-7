@@ -2,6 +2,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: Roboto;
 }
 
 .main-div{
@@ -15,6 +16,7 @@ nav{
 
 .nav-items{
     display: flex;
+    font-weight: 400;
     color: rgba(62,71,148,255);
     justify-content: space-between;
 }
@@ -71,8 +73,10 @@ img[alt=logo]{
 }
 .left-section h4{
     margin: 2rem 0;
+    line-height: 3ch;
     font-size: 0.5rem;
     font-weight: 100;
+    color: rgb(62, 67, 106);
     white-space: pre-line;
 }
 @media screen and (min-width:1500px) {
